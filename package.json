@@ -12,10 +12,16 @@
     "url": "git+https://github.com/bavouasoft/googlebooks.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Achille BAVOUA",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bavouasoft/googlebooks/issues"
   },
-  "homepage": "https://github.com/bavouasoft/googlebooks#readme"
+  "homepage": "https://github.com/bavouasoft/googlebooks#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mobgoose": "^3.0.1"
+  }
 }
