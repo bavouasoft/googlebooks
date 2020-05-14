@@ -2,8 +2,8 @@
 
 ## How does it Work
 
-Search a book via the Google Books API by typing in a title and clicking on "Search". You have the option to View or Save a it to the Mongo backend.
-You can always come back to View the book saved and to Delete it from the backend.
+Search a book via the Google Books API by typing in a title and clicking on "Search". You have the option to View or Save your book to the Mongo backend.
+You can always come back to View the book you saved and Delete it from the backend if you want.
 
 ## Technologies Used
 
