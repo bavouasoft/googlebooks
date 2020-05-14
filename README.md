@@ -1,4 +1,4 @@
-# googlebooks : A React-based Google Books Search application that query and display books based on user searches.
+## googlebooks : A React-based Google Books Search application that query and display books based on user searches.
 
 ## How does it Work
 
