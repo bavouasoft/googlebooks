@@ -16,3 +16,5 @@ You can always come back to View the book you saved and Delete it from the backe
 ## Deployment
 
 This app is deployed on Heroku :https://achille-book-app.herokuapp.com/
+
+Author: Achille Tsueti
