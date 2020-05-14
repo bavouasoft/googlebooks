@@ -10,7 +10,7 @@ class Saved extends Component {
   state = {
     books: [],
     target: "",
-    noResults: false
+    noResults: false,
   };
 
   componentDidMount() {
@@ -19,25 +19,25 @@ class Saved extends Component {
 
   getSavedBooks = () => {
     API.getSavedBooks()
-      .then(res => {
+      .then((res) => {
         if (res.data.length > 0) {
           this.setState({
             books: res.data,
-            target: "_blank"
+            target: "_blank",
           });
         } else {
           this.setState({
-            noResults: true
+            noResults: true,
           });
         }
       })
-      .catch(err => console.log(err));
+      .catch((err) => console.log(err));
   };
 
-  deleteBook = id => {
+  deleteBook = (id) => {
     API.deleteBook(id)
-      .then(res => this.getSavedBooks())
-      .catch(err => console.log(err));
+      .then((res) => this.getSavedBooks())
+      .catch((err) => console.log(err));
   };
 
   render() {
@@ -87,7 +87,7 @@ class Saved extends Component {
         <Container>
           <h2>Saved Books</h2>
           <List>
-            {this.state.books.map(book => (
+            {this.state.books.map((book) => (
               <ListItem key={book._id}>
                 <div className="date-div">
                   <a
@@ -129,3 +129,11 @@ class Saved extends Component {
 }
 
 export default Saved;
+
+// import React, { Component } from "react";
+// import { Link } from "react-router-dom";
+// import { Container } from "../../components/Grid";
+// import { List, ListItem } from "../../components/List";
+// import Jumbotron from "../../components/Jumbotron";
+// import API from "../../utils/API";
+// import BookBtn from "../../components/BookBtn";
